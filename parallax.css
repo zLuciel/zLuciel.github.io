@@ -40,9 +40,9 @@ header{
 	font-size: 30px;
 }
 .logo_img{
-	width: 80px;
+	width: 120px;
 	position: absolute;
-	top: -4px;
+	top: -26px;
 	left: 20px;
 }
 
@@ -58,8 +58,9 @@ header{
 	align-items: center;
 }
 .fondo_p h1{
-	font-size: 60px;
-	color: #000;
+	font-size: 30px;
+	color: rgb(250, 243, 243);
+	
 
 }
 
