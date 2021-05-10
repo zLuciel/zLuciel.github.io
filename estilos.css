@@ -219,14 +219,14 @@ header{
 	}
 }
 .fondo_plat{
-	background-image:url(imagenes/fondoa.jpg);
+	background-image:url(FOT/fondoa.jpg);
 	background-repeat: no-repeat;
     background-attachment: scroll;
 	background-position: top;
 	z-index: auto;
 	}
 .fondo_negro{
-		background-image:url(imagenes/fondocomple.jpg);
+		background-image:url(FOT/fondocomple.jpg);
 		
 		background-attachment: scroll;
 		background-position: auto;
