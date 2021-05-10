@@ -1,19 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 
-* {
-  
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-  }
 
-body {
-    background: #585c68;
-  }
+
 
   .wrapper {
     width: 780px;
-    margin: 100px auto 0;
+    margin: 0x auto 0;
 }
 
 .wrapper .title {
@@ -27,6 +19,8 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
+ 
+  
   
 }
 
@@ -42,7 +36,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
   opacity: 0;
   
 }
@@ -59,6 +53,7 @@ body {
   display: block;
   border: 5px solid transparent;
   position: relative;
+  
 }
 
 .option_item .option_inner .icon {
@@ -134,12 +129,12 @@ body {
   height: 5px;
   border: 3px solid;
   border-color: transparent transparent #fff #fff;
-  transform: rotate(-45deg);
+  
 }
 
 .option_item .checkbox:checked ~ .option_inner .tickmark {
   display: block;
-}
+ }
 
 .option_item .option_inner.facebook .tickmark {
   border-color: #3b5999 transparent transparent #3b5999;

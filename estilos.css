@@ -2,11 +2,15 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-}
+  }
+
+
+
 header{
 	width: 100%;
 	height: 80px;
-	background-color: rgba(39, 146, 228, 0.2);
+	background-color: rgba(39, 146, 228, 0.323);
+	
 }
 .cab_nav{
 	width: 100%;
@@ -42,7 +46,7 @@ header{
 	width: 130px;
 	position: absolute;
 	/*transform: translateX(-1520px) translateY(-25px);*/
-	top: -30px;
+	top: 0px;
 	left: 20px;
 }
 .contenedor{
@@ -79,7 +83,7 @@ header{
 }
 
 .foot{
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.3);
 	bottom: 0px;
 	width: 100%;
 	padding: 20px 0px;
@@ -95,16 +99,9 @@ header{
 	background-color: rgba(21, 88, 230, 0.7);
 }
 
-.imagen_fondo{
-	position: fixed
-	;
-	top:40%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-}
+	
+
+
 
 .formulario_ing{
 	width: 500px;
@@ -153,7 +150,9 @@ header{
 	display: none;
 }
 
-@media screen and (max-width:1000px){
+
+@media screen and (max-width:800px){
+
 	#bar {
 		width: 100%;
 		height: 70%;
@@ -220,21 +219,26 @@ header{
 	}
 }
 .fondo_plat{
-	background-image:url(Imagenes/fondoc.jpg);
+	background-image:url(Imagenes/fondoa.jpg);
 	background-repeat: no-repeat;
     background-attachment: scroll;
-	background-position: center center;
+	background-position: top;
 	z-index: auto;
-	
-	
+	}
+.fondo_negro{
+		background-image:url(trailer/image/fondocomple.jpg);
+		
+		background-attachment: scroll;
+		background-position: auto;
+		z-index: auto;		
 }
 .contenido_for{
 	
 	position: absolute;
-	top: 47%;
+	top: 50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
-	padding: 10px 10px;	
+	padding: 0px;	
 }
 .titulo_cont23{
 	font-size: 40px;
@@ -244,13 +248,4 @@ header{
 	top: 30%;
 	left: 50%;
   }
-  .nomb_lo{
-	width: 250px;
-	padding: 5px 5px;
-	float: left;
-	position: relative;
-	top: 5%;
-	left: 2%;
-	color: #fff;
-	font-size: 20px;
-  }
+ }
