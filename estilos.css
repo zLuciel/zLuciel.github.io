@@ -151,7 +151,7 @@ header{
 }
 
 
-@media only screen and (max-width:1800px) and (min-width:1000px){
+@media only screen and (max-width:1200px) and (min-width:300px){
 
 	#bar {
 		width: 100%;
