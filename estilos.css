@@ -6,6 +6,7 @@
 
 
 
+
 header{
 	width: 100%;
 	height: 80px;
@@ -218,13 +219,7 @@ header{
 		background-color: rgba(29, 25, 29, 1);
 	}
 }
-.fondo_plat{
-	background-image:url(FOT/fondoa.jpg);
-	background-repeat: no-repeat;
-    background-attachment: scroll;
-	background-position: top;
-	z-index: auto;
-	}
+
 .fondo_negro{
 		background-image:url(FOT/fondocomple.jpg);
 		
@@ -249,3 +244,4 @@ header{
 	left: 50%;
   }
  }
+ /*formas de tomas interpretaciones de forma segura en la de un celular pero con ajustes basicos  sobre las imagenes de un lapto o computadora*/

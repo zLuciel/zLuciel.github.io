@@ -8,6 +8,7 @@ header{
 	height: 80px;
 	background-color: rgba(39, 146, 228, 0.5);
 	position: fixed;
+	z-index: 1000;
 }
 .cab_nav{
 	width: 100%;
@@ -56,17 +57,6 @@ header{
 	left: 15px;
 }
 
-.fondo_p{
-	width: 100%;
-	height: 100vh;
-	background: url(../FOT/fondo11.jpg);
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 .fondo_p h1{
 	font-size: 30px;
 	color: rgb(10, 10, 10);
@@ -82,17 +72,8 @@ header{
 	color: rgb(245, 238, 238);
 	padding: 20px 0px;
 }
-.seccion{
-	background: url(../FOT/fondo5.jpg);
-	width: 100%;
-	height: 110vh;
-	background-position: center;
-	position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	justify-content: center;
-	align-items: center;
-}
+
+
 .seccion h2, .seccion_1 h2, .seccion_2 h2{
 	font-size: 60px;
 	text-align: center;
@@ -110,30 +91,21 @@ header{
 	text-align: justify;
 
 }
+.fondo_p, .seccion, .seccion_1,.seccion_2{
+	border: 0px solid blue;
+	height:0px;
+	padding-bottom: 56.25%;
+    position: relative;
+ }
 
-/*Replicas*/
-.seccion_1{
-	background: url(../FOT/fondo7.jpg);
+img {
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 100%;
 	width: 100%;
-	height: 110vh;
-	background-position: center;
-	position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	justify-content: center;
-	align-items: center;
-}
-.seccion_2{
-	background: url(../FOT/fondo15.jpg);
-	width: 100%;
-	height: 110vh;
-	background-position: center;
-	position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	justify-content: center;
-	align-items: center;
-}
+	
+	}
 
 
 .foot{
