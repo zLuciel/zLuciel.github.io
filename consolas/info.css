@@ -3,6 +3,9 @@
 	margin: 0px;
 	box-sizing: border-box;
 }
+body{
+	background-color:black;
+}
 header{
 	width: 100%;
 	height: 80px;
@@ -31,8 +34,8 @@ header{
 	color: white;
 }
 .nomb_logo{
-	width: 330px;
-	padding: 0px 20px;
+	width: 20px;
+	padding: 0px 3px;
 	float: left;
 	position: relative;
 	top: 5%;
@@ -40,12 +43,7 @@ header{
 	color: #fff;
 	font-size: 30px;
 }
-.logo_img{
-	width: 95px;
-	position: absolute;
-	top: -12px;
-	left: 20px;
-}
+
 
 
 .fondo_p h1{
@@ -60,7 +58,7 @@ header{
 	width: 90%;
 	overflow: hidden;
 	margin: auto;
-	color: rgb(250, 242, 242);
+	color: rgb(250, 244, 244);
 	padding: 20px 0px;
 }
 
@@ -81,7 +79,6 @@ header{
 	text-align: justify;
 
 }
-
 .fondo_p, .seccion, .seccion_1,.seccion_2{
 	border: 0px solid blue;
 	height:0px;
@@ -97,7 +94,6 @@ img {
 	width: 100%;
 	
 	}
-
 
 .foot{
 	background-color: rgba(0, 0, 0, 1);
@@ -155,10 +151,7 @@ img {
 		background-color:rgba(21, 19, 17, 1);
 		transition: all 0.7s ease-in;	
 	}
-	.logo_img{
-		display: none;
 
-	}
 	.nomb_logo{
 		display:none;
 	}

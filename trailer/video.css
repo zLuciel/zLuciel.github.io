@@ -3,6 +3,9 @@
 	margin: 0px;
 	box-sizing: border-box;
 }
+body{
+	background-color:black;
+}
 
 
 header{
@@ -33,8 +36,8 @@ header{
 	color: white;
 }
 .nomb_logo{
-	width: 330px;
-	padding: 0px 20px;
+	width: 20px;
+	padding: 0px 3px;
 	float: left;
 	position: relative;
 	top: 5%;
@@ -42,30 +45,7 @@ header{
 	color: #fff;
 	font-size: 30px;
 }
-.logo_imgpc{
-	width: 80px;
-	position: absolute;
-	top: 0px;
-	left: 25px;
-}
-.logo_xbox{
-	width: 80px;
-	position: absolute;
-	top: 0px;
-	left: 25px;
-}
-.logo_cel{
-	width: 90px;
-	position: absolute;
-	top: -5px;
-	left: 25px;
-}
-.logo_ps4{
-	width: 120px;
-	position: absolute;
-	top: -25px;
-	left: 25px;
-}
+
 
 .foot{
 	background-color: rgba(0, 0, 0, 1);
@@ -89,14 +69,15 @@ box-sizing:border-box;
 }
 /* respons*/
 .video_youtube {
-	border: 0px solid blue;
+	border: 10px  solid rgb(0, 0, 0);
 	height:0px;
 	padding-bottom: 56.25%;
     position: relative;
+	top: 0px;
  }
 .video_youtube iframe{
 	position: absolute;
-	top:0;
+	top: 0px;
 	left: 0;
 	height: 100%;
 	width: 100%;
@@ -142,18 +123,17 @@ box-sizing:border-box;
 		background-color:rgba(21, 19, 17, 1);
 		transition: all 0.7s ease-in;	
 	}
-	.logo_img{
-		display: none;
-
-	}
+	
 	.nomb_logo{
 		display:none;
 	}
 	.tit{
 		color: #fff;
 		text-decoration: none;
-		padding: 0px 35% ;
+		padding: 0px 14% ;
 		position: fixed;
+		
+		
 	}
 
     header .cab_nav ul li{

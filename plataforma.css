@@ -51,7 +51,7 @@
   cursor: pointer;
   color: #585c68;
   display: block;
-  border: 6px solid transparent;
+  border: 6px solid black;
   position: relative;
   
 }
@@ -171,7 +171,7 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  color: #edeff5;
+  color: #ffffff;
 
 }
 

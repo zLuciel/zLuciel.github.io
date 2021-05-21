@@ -34,8 +34,8 @@ header{
 	color: white;
 }
 .nomb_logo{
-	width: 300px;
-	padding: 0px 20px;
+	width: 20px;
+	padding: 0px 3px;
 	float: left;
 	position: relative;
 	top: 5%;
@@ -43,13 +43,7 @@ header{
 	color: #fff;
 	font-size: 30px;
 }
-.logo_img{
-	width: 130px;
-	position: absolute;
-	/*transform: translateX(-1520px) translateY(-25px);*/
-	top: 0px;
-	left: 20px;
-}
+
 .contenedor{
 	position: absolute;
 	top: 50%;
@@ -152,6 +146,8 @@ header{
 }
 
 
+
+
 @media only screen and (max-width:1000px){
 
 	#bar {
@@ -190,10 +186,7 @@ header{
 		background-color:rgba(21, 19, 17, 1);
 		transition: all 0.7s ease-in;	
 	}
-	.logo_img{
-		display: none;
-
-	}
+	
 	.nomb_logo{
 		display:none;
 	}
